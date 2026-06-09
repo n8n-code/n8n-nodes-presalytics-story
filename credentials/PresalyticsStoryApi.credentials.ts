@@ -8,7 +8,7 @@ import type {
 export class PresalyticsStoryApi implements ICredentialType {
 	name = 'N8nDevPresalyticsStoryApi';
 
-	displayName = 'presalytics-story API';
+	displayName = 'Presalytics Story API';
 
 	icon: Icon = { light: 'file:../nodes/PresalyticsStory/presalytics-story.svg', dark: 'file:../nodes/PresalyticsStory/presalytics-story.dark.svg' };
 
@@ -22,7 +22,7 @@ export class PresalyticsStoryApi implements ICredentialType {
 			default: '/story',
 			required: true,
 			placeholder: '/story',
-			description: 'The base URL of your presalytics-story API server',
+			description: 'The base URL of your Presalytics Story API server',
 		},
 		{
 			displayName: 'API Key',

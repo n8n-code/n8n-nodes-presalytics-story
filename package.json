@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-presalytics-story",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This API is the main entry point for creating, editing and publishing analytics throught the Presalytics API",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-presalytics-story",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "presalytics-story"

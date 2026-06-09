@@ -15,8 +15,8 @@ export const viewsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Sessions Id Views Get",
-					"value": "Sessions Id Views Get",
+					"name": "Sessions ID Views Get",
+					"value": "Sessions ID Views Get",
 					"action": "Views: List Session Views",
 					"description": "Get data for all views in a session",
 					"routing": {
@@ -27,8 +27,8 @@ export const viewsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Sessions Id Views Post",
-					"value": "Sessions Id Views Post",
+					"name": "Sessions ID Views Post",
+					"value": "Sessions ID Views Post",
 					"action": "Views: Create A Session View",
 					"description": "Create a page view object for a viewing session",
 					"routing": {
@@ -39,8 +39,8 @@ export const viewsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Views Id Delete",
-					"value": "Views Id Delete",
+					"name": "Views ID Delete",
+					"value": "Views ID Delete",
 					"action": "Views: Delete by Id",
 					"description": "Remove a view and dependant data.",
 					"routing": {
@@ -51,8 +51,8 @@ export const viewsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Views Id Get",
-					"value": "Views Id Get",
+					"name": "Views ID Get",
+					"value": "Views ID Get",
 					"action": "Views: Get View",
 					"description": "Get view meta data",
 					"routing": {
@@ -79,13 +79,13 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Get"
+						"Sessions ID Views Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "session_id",
 			"required": true,
 			"description": "The primary key for a view session",
@@ -97,7 +97,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Get"
+						"Sessions ID Views Get"
 					]
 				}
 			}
@@ -116,13 +116,13 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "session_id",
 			"required": true,
 			"description": "The primary key for a view session",
@@ -134,7 +134,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
@@ -158,7 +158,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
@@ -182,7 +182,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
@@ -207,7 +207,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
@@ -232,7 +232,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
@@ -257,7 +257,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Sessions Id Views Post"
+						"Sessions ID Views Post"
 					]
 				}
 			}
@@ -276,13 +276,13 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Views Id Delete"
+						"Views ID Delete"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "View Id",
+			"displayName": "View ID",
 			"name": "view_id",
 			"required": true,
 			"description": "The primary key for a page view within a session",
@@ -294,7 +294,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Views Id Delete"
+						"Views ID Delete"
 					]
 				}
 			}
@@ -313,13 +313,13 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Views Id Get"
+						"Views ID Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "View Id",
+			"displayName": "View ID",
 			"name": "view_id",
 			"required": true,
 			"description": "The primary key for a page view within a session",
@@ -331,7 +331,7 @@ export const viewsDescription: INodeProperties[] = [
 						"Views"
 					],
 					"operation": [
-						"Views Id Get"
+						"Views ID Get"
 					]
 				}
 			}

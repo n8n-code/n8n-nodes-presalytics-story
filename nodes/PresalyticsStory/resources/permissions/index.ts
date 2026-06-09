@@ -27,8 +27,8 @@ export const permissionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Collaborators Userid Permissiontype Get",
-					"value": "Story Id Collaborators Userid Permissiontype Get",
+					"name": "Story ID Collaborators Userid Permissiontype Get",
+					"value": "Story ID Collaborators Userid Permissiontype Get",
 					"action": "Permissions: Story Authorization for a User",
 					"description": "Check whether user have certain types of permissions.  Use http status codes to understand if permission is granted - 204 = Granted, 403 = Forbidden",
 					"routing": {
@@ -74,13 +74,13 @@ export const permissionsDescription: INodeProperties[] = [
 						"Permissions"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Permissiontype Get"
+						"Story ID Collaborators Userid Permissiontype Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -92,7 +92,7 @@ export const permissionsDescription: INodeProperties[] = [
 						"Permissions"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Permissiontype Get"
+						"Story ID Collaborators Userid Permissiontype Get"
 					]
 				}
 			}
@@ -110,7 +110,7 @@ export const permissionsDescription: INodeProperties[] = [
 						"Permissions"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Permissiontype Get"
+						"Story ID Collaborators Userid Permissiontype Get"
 					]
 				}
 			}
@@ -128,7 +128,7 @@ export const permissionsDescription: INodeProperties[] = [
 						"Permissions"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Permissiontype Get"
+						"Story ID Collaborators Userid Permissiontype Get"
 					]
 				}
 			}

@@ -13,14 +13,14 @@ import { defaultDescription } from './resources/default';
 
 export class PresalyticsStory implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'presalytics-story',
+		displayName: 'Presalytics Story',
 		name: 'N8nDevPresalyticsStory',
 		icon: { light: 'file:./presalytics-story.svg', dark: 'file:./presalytics-story.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'This API is the main entry point for creating, editing and publishing analytics throught the Presalytics API',
-		defaults: { name: 'presalytics-story' },
+		defaults: { name: 'Presalytics Story' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

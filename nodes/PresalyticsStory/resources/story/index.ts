@@ -51,8 +51,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Post File Json",
-					"value": "Story Post File Json",
+					"name": "Story Post File JSON",
+					"value": "Story Post File JSON",
 					"action": "Story: Upload a File (base64)",
 					"description": "Upload new story to presalytics api via an Open Office Xml file",
 					"routing": {
@@ -63,8 +63,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Delete",
-					"value": "Story Id Delete",
+					"name": "Story ID Delete",
+					"value": "Story ID Delete",
 					"action": "Story: Delete by Id",
 					"description": "Remove a story and dependant data.",
 					"routing": {
@@ -75,8 +75,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Get",
-					"value": "Story Id Get",
+					"name": "Story ID Get",
+					"value": "Story ID Get",
 					"action": "Story: Get by Id",
 					"description": "Returns story metadata, inlcuding json object with story outline",
 					"routing": {
@@ -87,8 +87,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Put",
-					"value": "Story Id Put",
+					"name": "Story ID Put",
+					"value": "Story ID Put",
 					"action": "Story: Modify",
 					"description": "Update story metadata, including story outline",
 					"routing": {
@@ -99,8 +99,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Analytics",
-					"value": "Story Id Analytics",
+					"name": "Story ID Analytics",
+					"value": "Story ID Analytics",
 					"action": "Story: View Analytics",
 					"description": "returns an html document containing session and event metrics for the story",
 					"routing": {
@@ -111,8 +111,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id File Post",
-					"value": "Story Id File Post",
+					"name": "Story ID File Post",
+					"value": "Story ID File Post",
 					"action": "Story: Upload a File To Existing Story",
 					"description": "Upload a file to an existing story",
 					"routing": {
@@ -123,8 +123,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id File Ooxmlautomationid Delete",
-					"value": "Story Id File Ooxmlautomationid Delete",
+					"name": "Story ID File Ooxmlautomationid Delete",
+					"value": "Story ID File Ooxmlautomationid Delete",
 					"action": "Story: Delete Subdocument",
 					"description": "Deletes a subdcoument of this story (e.g., .pptx, .docx, .xlsx)",
 					"routing": {
@@ -135,8 +135,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id File Ooxmlautomationid Get",
-					"value": "Story Id File Ooxmlautomationid Get",
+					"name": "Story ID File Ooxmlautomationid Get",
+					"value": "Story ID File Ooxmlautomationid Get",
 					"action": "Story: Download Updated File",
 					"description": "Redtreives updated story as open office xml file (e.g., .pptx, .docx, .xlsx)",
 					"routing": {
@@ -147,8 +147,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Outline Get",
-					"value": "Story Id Outline Get",
+					"name": "Story ID Outline Get",
+					"value": "Story ID Outline Get",
 					"action": "Story: Get Story Outline",
 					"description": "Returns Story's outline",
 					"routing": {
@@ -159,8 +159,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Outline Post",
-					"value": "Story Id Outline Post",
+					"name": "Story ID Outline Post",
+					"value": "Story ID Outline Post",
 					"action": "Story: Post Story Outline",
 					"description": "Update a story outline.",
 					"routing": {
@@ -171,8 +171,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Public",
-					"value": "Story Id Public",
+					"name": "Story ID Public",
+					"value": "Story ID Public",
 					"action": "Story: Public Link to Story Reveal.js Document",
 					"description": "returns an html document containing a reveal.js epresentation of the story, if the story if set to is_public = True",
 					"routing": {
@@ -183,8 +183,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Reveal",
-					"value": "Story Id Reveal",
+					"name": "Story ID Reveal",
+					"value": "Story ID Reveal",
 					"action": "Story: Get Story at Reveal.js Document",
 					"description": "returns an html document containing a reveal.js epresentation of the story",
 					"routing": {
@@ -195,8 +195,8 @@ export const storyDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Status Get",
-					"value": "Story Id Status Get",
+					"name": "Story ID Status Get",
+					"value": "Story ID Status Get",
 					"action": "Story: Get Story Status",
 					"description": "Returns code indicating whether story has active running background and is healthy (e.g., the latest outline is valid)",
 					"routing": {
@@ -420,7 +420,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Post File Json"
+						"Story Post File JSON"
 					]
 				}
 			}
@@ -445,7 +445,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Post File Json"
+						"Story Post File JSON"
 					]
 				}
 			}
@@ -469,7 +469,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Post File Json"
+						"Story Post File JSON"
 					]
 				}
 			}
@@ -493,7 +493,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Post File Json"
+						"Story Post File JSON"
 					]
 				}
 			}
@@ -517,7 +517,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Post File Json"
+						"Story Post File JSON"
 					]
 				}
 			}
@@ -541,7 +541,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Post File Json"
+						"Story Post File JSON"
 					]
 				}
 			}
@@ -560,13 +560,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Delete"
+						"Story ID Delete"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -578,7 +578,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Delete"
+						"Story ID Delete"
 					]
 				}
 			}
@@ -597,13 +597,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Get"
+						"Story ID Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -615,7 +615,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Get"
+						"Story ID Get"
 					]
 				}
 			}
@@ -640,7 +640,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Get"
+						"Story ID Get"
 					]
 				}
 			}
@@ -665,7 +665,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Get"
+						"Story ID Get"
 					]
 				}
 			}
@@ -690,7 +690,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Get"
+						"Story ID Get"
 					]
 				}
 			}
@@ -715,7 +715,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Get"
+						"Story ID Get"
 					]
 				}
 			}
@@ -734,13 +734,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Put"
+						"Story ID Put"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -752,7 +752,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Put"
+						"Story ID Put"
 					]
 				}
 			}
@@ -777,7 +777,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Put"
+						"Story ID Put"
 					]
 				}
 			}
@@ -793,7 +793,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Put"
+						"Story ID Put"
 					]
 				}
 			}
@@ -812,13 +812,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Analytics"
+						"Story ID Analytics"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -830,7 +830,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Analytics"
+						"Story ID Analytics"
 					]
 				}
 			}
@@ -849,13 +849,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Post"
+						"Story ID File Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -867,7 +867,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Post"
+						"Story ID File Post"
 					]
 				}
 			}
@@ -892,13 +892,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Post"
+						"Story ID File Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Obsolete Id",
+			"displayName": "Obsolete ID",
 			"name": "obsolete_id",
 			"description": "A primary key pointing to an obsolete item in the story. Item type is context-dependent",
 			"default": "",
@@ -917,7 +917,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Post"
+						"Story ID File Post"
 					]
 				}
 			}
@@ -942,7 +942,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Post"
+						"Story ID File Post"
 					]
 				}
 			}
@@ -958,7 +958,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Post"
+						"Story ID File Post"
 					]
 				}
 			}
@@ -977,13 +977,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Ooxmlautomationid Delete"
+						"Story ID File Ooxmlautomationid Delete"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -995,13 +995,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Ooxmlautomationid Delete"
+						"Story ID File Ooxmlautomationid Delete"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Ooxml Automation Id",
+			"displayName": "Ooxml Automation ID",
 			"name": "ooxml_automation_id",
 			"required": true,
 			"description": "the id of the ooxml_automation object",
@@ -1013,7 +1013,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Ooxmlautomationid Delete"
+						"Story ID File Ooxmlautomationid Delete"
 					]
 				}
 			}
@@ -1032,13 +1032,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Ooxmlautomationid Get"
+						"Story ID File Ooxmlautomationid Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -1050,13 +1050,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Ooxmlautomationid Get"
+						"Story ID File Ooxmlautomationid Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Ooxml Automation Id",
+			"displayName": "Ooxml Automation ID",
 			"name": "ooxml_automation_id",
 			"required": true,
 			"description": "the id of the ooxml_automation object",
@@ -1068,7 +1068,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id File Ooxmlautomationid Get"
+						"Story ID File Ooxmlautomationid Get"
 					]
 				}
 			}
@@ -1087,13 +1087,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Outline Get"
+						"Story ID Outline Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -1105,7 +1105,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Outline Get"
+						"Story ID Outline Get"
 					]
 				}
 			}
@@ -1124,13 +1124,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Outline Post"
+						"Story ID Outline Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -1142,7 +1142,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Outline Post"
+						"Story ID Outline Post"
 					]
 				}
 			}
@@ -1158,7 +1158,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Outline Post"
+						"Story ID Outline Post"
 					]
 				}
 			}
@@ -1177,13 +1177,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Public"
+						"Story ID Public"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -1195,7 +1195,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Public"
+						"Story ID Public"
 					]
 				}
 			}
@@ -1214,13 +1214,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Reveal"
+						"Story ID Reveal"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -1232,7 +1232,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Reveal"
+						"Story ID Reveal"
 					]
 				}
 			}
@@ -1251,13 +1251,13 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Status Get"
+						"Story ID Status Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -1269,7 +1269,7 @@ export const storyDescription: INodeProperties[] = [
 						"Story"
 					],
 					"operation": [
-						"Story Id Status Get"
+						"Story ID Status Get"
 					]
 				}
 			}

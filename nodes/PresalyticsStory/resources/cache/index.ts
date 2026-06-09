@@ -61,7 +61,7 @@ export const cacheDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Current User Id",
+			"displayName": "Current User ID",
 			"name": "current_user_id",
 			"type": "string",
 			"default": "",

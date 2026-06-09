@@ -15,8 +15,8 @@ export const conversationDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Story Id Messages Get",
-					"value": "Story Id Messages Get",
+					"name": "Story ID Messages Get",
+					"value": "Story ID Messages Get",
 					"action": "Conversation: List Conversation Messages",
 					"description": "Get a list of messages that have been send in this story",
 					"routing": {
@@ -27,8 +27,8 @@ export const conversationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Messages Post",
-					"value": "Story Id Messages Post",
+					"name": "Story ID Messages Post",
+					"value": "Story ID Messages Post",
 					"action": "Conversation: Send a Message",
 					"description": "Add a message to the Story's conversation",
 					"routing": {
@@ -55,13 +55,13 @@ export const conversationDescription: INodeProperties[] = [
 						"Conversation"
 					],
 					"operation": [
-						"Story Id Messages Get"
+						"Story ID Messages Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -73,7 +73,7 @@ export const conversationDescription: INodeProperties[] = [
 						"Conversation"
 					],
 					"operation": [
-						"Story Id Messages Get"
+						"Story ID Messages Get"
 					]
 				}
 			}
@@ -92,13 +92,13 @@ export const conversationDescription: INodeProperties[] = [
 						"Conversation"
 					],
 					"operation": [
-						"Story Id Messages Post"
+						"Story ID Messages Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -110,7 +110,7 @@ export const conversationDescription: INodeProperties[] = [
 						"Conversation"
 					],
 					"operation": [
-						"Story Id Messages Post"
+						"Story ID Messages Post"
 					]
 				}
 			}
@@ -126,7 +126,7 @@ export const conversationDescription: INodeProperties[] = [
 						"Conversation"
 					],
 					"operation": [
-						"Story Id Messages Post"
+						"Story ID Messages Post"
 					]
 				}
 			}

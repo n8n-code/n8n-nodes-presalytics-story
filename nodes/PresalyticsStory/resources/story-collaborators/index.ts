@@ -15,8 +15,8 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Story Id Collaborators Get",
-					"value": "Story Id Collaborators Get",
+					"name": "Story ID Collaborators Get",
+					"value": "Story ID Collaborators Get",
 					"action": "Story Collaborators: List",
 					"description": "Gets a list users that can read or edit this story",
 					"routing": {
@@ -27,8 +27,8 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Collaborators Post",
-					"value": "Story Id Collaborators Post",
+					"name": "Story ID Collaborators Post",
+					"value": "Story ID Collaborators Post",
 					"action": "Story Collaborators: Add New User",
 					"description": "Add a colloborator to this story",
 					"routing": {
@@ -39,8 +39,8 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Collaborators Inactive Post",
-					"value": "Story Id Collaborators Inactive Post",
+					"name": "Story ID Collaborators Inactive Post",
+					"value": "Story ID Collaborators Inactive Post",
 					"action": "Story Collaborators: Edit Inactive User Permission",
 					"description": "Edit story permissions for inactive users.  Requires admin rights.",
 					"routing": {
@@ -51,8 +51,8 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Collaborators Userid Delete",
-					"value": "Story Id Collaborators Userid Delete",
+					"name": "Story ID Collaborators Userid Delete",
+					"value": "Story ID Collaborators Userid Delete",
 					"action": "Story Collaborators: Remove User",
 					"description": "Remove a collaborator from this story",
 					"routing": {
@@ -63,8 +63,8 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Collaborators Userid Get",
-					"value": "Story Id Collaborators Userid Get",
+					"name": "Story ID Collaborators Userid Get",
+					"value": "Story ID Collaborators Userid Get",
 					"action": "Story Collaborators: Access Permissions",
 					"description": "Data to help you understand the access rights of a particular collaborator on this story",
 					"routing": {
@@ -75,8 +75,8 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Collaborators Userid Put",
-					"value": "Story Id Collaborators Userid Put",
+					"name": "Story ID Collaborators Userid Put",
+					"value": "Story ID Collaborators Userid Put",
 					"action": "Story Collaborators: Edit Access Rights",
 					"description": "Modify a user's access right to this story (e.g., grant edit permissions)",
 					"routing": {
@@ -103,13 +103,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Get"
+						"Story ID Collaborators Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -121,7 +121,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Get"
+						"Story ID Collaborators Get"
 					]
 				}
 			}
@@ -140,13 +140,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Post"
+						"Story ID Collaborators Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -158,7 +158,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Post"
+						"Story ID Collaborators Post"
 					]
 				}
 			}
@@ -182,7 +182,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Post"
+						"Story ID Collaborators Post"
 					]
 				}
 			}
@@ -206,13 +206,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Post"
+						"Story ID Collaborators Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"type": "string",
 			"default": "",
@@ -230,7 +230,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Post"
+						"Story ID Collaborators Post"
 					]
 				}
 			}
@@ -249,13 +249,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Inactive Post"
+						"Story ID Collaborators Inactive Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -267,7 +267,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Inactive Post"
+						"Story ID Collaborators Inactive Post"
 					]
 				}
 			}
@@ -291,13 +291,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Inactive Post"
+						"Story ID Collaborators Inactive Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Lead Id",
+			"displayName": "Lead ID",
 			"name": "lead_id",
 			"type": "number",
 			"default": 0,
@@ -315,13 +315,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Inactive Post"
+						"Story ID Collaborators Inactive Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"type": "string",
 			"default": "",
@@ -339,7 +339,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Inactive Post"
+						"Story ID Collaborators Inactive Post"
 					]
 				}
 			}
@@ -358,13 +358,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Delete"
+						"Story ID Collaborators Userid Delete"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -376,7 +376,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Delete"
+						"Story ID Collaborators Userid Delete"
 					]
 				}
 			}
@@ -394,7 +394,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Delete"
+						"Story ID Collaborators Userid Delete"
 					]
 				}
 			}
@@ -413,13 +413,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Get"
+						"Story ID Collaborators Userid Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -431,7 +431,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Get"
+						"Story ID Collaborators Userid Get"
 					]
 				}
 			}
@@ -449,7 +449,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Get"
+						"Story ID Collaborators Userid Get"
 					]
 				}
 			}
@@ -468,13 +468,13 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Put"
+						"Story ID Collaborators Userid Put"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -486,7 +486,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Put"
+						"Story ID Collaborators Userid Put"
 					]
 				}
 			}
@@ -504,7 +504,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Put"
+						"Story ID Collaborators Userid Put"
 					]
 				}
 			}
@@ -520,7 +520,7 @@ export const storyCollaboratorsDescription: INodeProperties[] = [
 						"Story Collaborators"
 					],
 					"operation": [
-						"Story Id Collaborators Userid Put"
+						"Story ID Collaborators Userid Put"
 					]
 				}
 			}

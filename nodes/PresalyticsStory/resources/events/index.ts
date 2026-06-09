@@ -15,8 +15,8 @@ export const eventsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Story Id Events Get",
-					"value": "Story Id Events Get",
+					"name": "Story ID Events Get",
+					"value": "Story ID Events Get",
 					"action": "Events: List Events",
 					"description": "Get a list of Events available to users of this story",
 					"routing": {
@@ -27,8 +27,8 @@ export const eventsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Events Post",
-					"value": "Story Id Events Post",
+					"name": "Story ID Events Post",
+					"value": "Story ID Events Post",
 					"action": "Events: Manage Events",
 					"description": "Add a message to the Story's conversation",
 					"routing": {
@@ -55,13 +55,13 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Get"
+						"Story ID Events Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -73,7 +73,7 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Get"
+						"Story ID Events Get"
 					]
 				}
 			}
@@ -92,13 +92,13 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Post"
+						"Story ID Events Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -110,7 +110,7 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Post"
+						"Story ID Events Post"
 					]
 				}
 			}
@@ -152,7 +152,7 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Post"
+						"Story ID Events Post"
 					]
 				}
 			}
@@ -176,7 +176,7 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Post"
+						"Story ID Events Post"
 					]
 				}
 			}
@@ -200,7 +200,7 @@ export const eventsDescription: INodeProperties[] = [
 						"Events"
 					],
 					"operation": [
-						"Story Id Events Post"
+						"Story ID Events Post"
 					]
 				}
 			}

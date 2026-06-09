@@ -15,8 +15,8 @@ export const sessionsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Session Id Delete",
-					"value": "Session Id Delete",
+					"name": "Session ID Delete",
+					"value": "Session ID Delete",
 					"action": "Sessions: Delete by Id",
 					"description": "Remove a session and dependant data.",
 					"routing": {
@@ -27,8 +27,8 @@ export const sessionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Session Id Get",
-					"value": "Session Id Get",
+					"name": "Session ID Get",
+					"value": "Session ID Get",
 					"action": "Sessions: Get",
 					"description": "Get session metadata",
 					"routing": {
@@ -39,8 +39,8 @@ export const sessionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Sessions Get",
-					"value": "Story Id Sessions Get",
+					"name": "Story ID Sessions Get",
+					"value": "Story ID Sessions Get",
 					"action": "Sessions: List Story Sessions",
 					"description": "Get a list of sessions asscoaited with this story",
 					"routing": {
@@ -51,8 +51,8 @@ export const sessionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Story Id Session Post",
-					"value": "Story Id Session Post",
+					"name": "Story ID Session Post",
+					"value": "Story ID Session Post",
 					"action": "Sessions: Create a Session",
 					"description": "Create a new session",
 					"routing": {
@@ -79,13 +79,13 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Session Id Delete"
+						"Session ID Delete"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "session_id",
 			"required": true,
 			"description": "The primary key for a view session",
@@ -97,7 +97,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Session Id Delete"
+						"Session ID Delete"
 					]
 				}
 			}
@@ -116,13 +116,13 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Session Id Get"
+						"Session ID Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "session_id",
 			"required": true,
 			"description": "The primary key for a view session",
@@ -134,7 +134,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Session Id Get"
+						"Session ID Get"
 					]
 				}
 			}
@@ -159,7 +159,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Session Id Get"
+						"Session ID Get"
 					]
 				}
 			}
@@ -178,13 +178,13 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Sessions Get"
+						"Story ID Sessions Get"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -196,7 +196,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Sessions Get"
+						"Story ID Sessions Get"
 					]
 				}
 			}
@@ -221,7 +221,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Sessions Get"
+						"Story ID Sessions Get"
 					]
 				}
 			}
@@ -240,13 +240,13 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Session Post"
+						"Story ID Session Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "the id from the story object",
@@ -258,13 +258,13 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Session Post"
+						"Story ID Session Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Collaborator User Id",
+			"displayName": "Collaborator User ID",
 			"name": "collaboratorUserId",
 			"type": "string",
 			"default": "",
@@ -282,7 +282,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Session Post"
+						"Story ID Session Post"
 					]
 				}
 			}
@@ -306,7 +306,7 @@ export const sessionsDescription: INodeProperties[] = [
 						"Sessions"
 					],
 					"operation": [
-						"Story Id Session Post"
+						"Story ID Session Post"
 					]
 				}
 			}

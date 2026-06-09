@@ -53,19 +53,113 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Story | Get story get list of user stories, Post story upload, Post story upload a file, Post story upload a file base64, Delete story delete by id, Get story get by id, Put story modify, Get story view analytics, Post story upload a file to existing story, Delete story delete subdocument, Get story download updated file, Get story get story outline, Post story post story outline, Get story public link to story revealjs document, Get story get story at revealjs document, Get story get story status |
-| Cache | Post cache store subdocument, Get cache get subdocument |
-| Restricted | Post collborators bulk update admin only |
-| Schemas | Get story outline schema |
-| Permissions | Get permissions list permission types, Get permissions story authorization for a user |
-| Sessions | Delete sessions delete by id, Get sessions get, Get sessions list story sessions, Post sessions create a session |
-| Views | Get views list session views, Post views create a session view, Delete views delete by id, Get views get view |
-| Story Collaborators | Get story collaborators list, Post story collaborators add new user, Post story collaborators edit inactive user permission, Delete story collaborators remove user, Get story collaborators access permissions, Put story collaborators edit access rights |
-| Events | Get events list events, Post events manage events |
-| Conversation | Get conversation list conversation messages, Post conversation send a message |
-| Default | Get environment get, Get specification no tags |
+<details>
+<summary><b>Story</b> (16 operations)</summary>
+
+- Get Story Get List of User Stories
+- Post Story Upload
+- Post Story Upload a File
+- Post Story Upload a File base64
+- Delete Story Delete by ID
+- Get Story Get by ID
+- Put Story Modify
+- Get Story View Analytics
+- Post Story Upload a File To Existing Story
+- Delete Story Delete Subdocument
+- Get Story Download Updated File
+- Get Story Get Story Outline
+- Post Story Post Story Outline
+- Get Story Public Link to Story Reveal js Document
+- Get Story Get Story at Reveal js Document
+- Get Story Get Story Status
+
+</details>
+
+<details>
+<summary><b>Cache</b> (2 operations)</summary>
+
+- Post Cache Store Subdocument
+- Get Cache Get Subdocument
+
+</details>
+
+<details>
+<summary><b>Restricted</b> (1 operations)</summary>
+
+- Post Collborators Bulk Update Admin Only
+
+</details>
+
+<details>
+<summary><b>Schemas</b> (1 operations)</summary>
+
+- Get Story Outline Schema
+
+</details>
+
+<details>
+<summary><b>Permissions</b> (2 operations)</summary>
+
+- Get Permissions List Permission Types
+- Get Permissions Story Authorization for a User
+
+</details>
+
+<details>
+<summary><b>Sessions</b> (4 operations)</summary>
+
+- Delete Sessions Delete by ID
+- Get Sessions Get
+- Get Sessions List Story Sessions
+- Post Sessions Create a Session
+
+</details>
+
+<details>
+<summary><b>Views</b> (4 operations)</summary>
+
+- Get Views List Session Views
+- Post Views Create A Session View
+- Delete Views Delete by ID
+- Get Views Get View
+
+</details>
+
+<details>
+<summary><b>Story Collaborators</b> (6 operations)</summary>
+
+- Get Story Collaborators List
+- Post Story Collaborators Add New User
+- Post Story Collaborators Edit Inactive User Permission
+- Delete Story Collaborators Remove User
+- Get Story Collaborators Access Permissions
+- Put Story Collaborators Edit Access Rights
+
+</details>
+
+<details>
+<summary><b>Events</b> (2 operations)</summary>
+
+- Get Events List Events
+- Post Events Manage Events
+
+</details>
+
+<details>
+<summary><b>Conversation</b> (2 operations)</summary>
+
+- Get Conversation List Conversation Messages
+- Post Conversation Send a Message
+
+</details>
+
+<details>
+<summary><b>Default</b> (2 operations)</summary>
+
+- Get Environment Get
+- Get Specification No tags
+
+</details>
 
 ---
 

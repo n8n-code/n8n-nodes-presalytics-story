@@ -73,7 +73,7 @@ export const restrictedDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Lead Id",
+			"displayName": "Lead ID",
 			"name": "lead_id",
 			"type": "number",
 			"default": 0,
@@ -97,7 +97,7 @@ export const restrictedDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"type": "string",
 			"default": "",
